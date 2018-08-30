@@ -6,8 +6,8 @@
 ;; Maintainer: Stuart Popejoy <stuart@kadena.io>
 ;; Keywords: pact, lisp, languages, blockchain, smartcontracts, tools, linting
 ;; URL: http://github.com/kadena-io/flycheck-pact
-;; Version: 0.0.3-git
-;; Package-Requires: ((emacs "24.3") (flycheck "0.25") (pact-mode "0.0.3"))
+;; Version: 0.0.4-git
+;; Package-Requires: ((emacs "24.3") (flycheck "0.25") (pact-mode "0.0.4"))
 
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
