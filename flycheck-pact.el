@@ -83,7 +83,12 @@ Requires at least pact 2.3.4."
     (flycheck-increment-error-columns errors))
   )
 
-(customize-set-variable 'flycheck-checkers (add-to-list 'flycheck-checkers 'pact-checker))
+;; (customize-set-variable 'flycheck-checkers (add-to-list 'flycheck-checkers 'pact-checker))
+
+(defun flycheck-pact-interactive-buffer ()
+  "Switch on flycheck-pact support interactively."
+  (interactive)
+  (customize-set-variable 'flycheck-checkers (add-to-list 'flycheck-checkers 'pact-checkers)))
 
 (defun flycheck-pact-toggle-trace ()
   "Toggle pact linting of trace output."
