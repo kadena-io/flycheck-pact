@@ -88,7 +88,7 @@ Requires at least pact 2.3.4."
 (defun flycheck-pact-interactive-buffer ()
   "Switch on flycheck-pact support interactively."
   (interactive)
-  (customize-set-variable 'flycheck-checkers (add-to-list 'flycheck-checkers 'pact-checkers)))
+  (customize-set-variable 'flycheck-checkers (add-to-list 'flycheck-checkers 'pact-checker)))
 
 (defun flycheck-pact-toggle-trace ()
   "Toggle pact linting of trace output."
